@@ -1,9 +1,9 @@
 .SUFFIXES : .o .c .f .f90
 #
 # Machine dependent info
-FC = /opt/intel/bin/ifort
+FC = /opt/intel/composer_xe_2013.5.192/bin/intel64/ifort
 #FC = gfortran
-CC = cc
+CC = icc
 
 # optimization flags
 OFLAG = -O -g -traceback
